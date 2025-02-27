@@ -1,0 +1,946 @@
+{
+  "accounts": [
+    {
+      "id": "1",
+      "type": "Savings",
+      "balance": 30998.62,
+      "currency": "USD",
+      "account_number": "3N6CM0KN0EK839993",
+      "opened_date": "07-11-2024"
+    },
+    {
+      "id": "2",
+      "type": "Savings",
+      "balance": 86093.92,
+      "currency": "USD",
+      "account_number": "2HKRM3H39FH180859",
+      "opened_date": "05-04-2024"
+    },
+    {
+      "id": "3",
+      "type": "Checking",
+      "balance": 33011.78,
+      "currency": "USD",
+      "account_number": "WBADN63482G504517",
+      "opened_date": "18-04-2024"
+    },
+    {
+      "id": "4",
+      "type": "Savings",
+      "balance": 62334.18,
+      "currency": "USD",
+      "account_number": "2G4WN58C091583707",
+      "opened_date": "07-11-2024"
+    },
+    {
+      "id": "5",
+      "type": "Checking",
+      "balance": 25516.11,
+      "currency": "USD",
+      "account_number": "WBAVA33597P369613",
+      "opened_date": "23-01-2025"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "date": "01-01-2025",
+      "amount": 716.15,
+      "category": "Electronics",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 2,
+      "date": "28-09-2024",
+      "amount": 1570.09,
+      "category": "Grocery",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 3,
+      "date": "24-02-2024",
+      "amount": 1681.43,
+      "category": "Sports",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 4,
+      "date": "05-09-2023",
+      "amount": 3961.2,
+      "category": "Computers",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 5,
+      "date": "11-03-2024",
+      "amount": 569.27,
+      "category": "Tools",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 6,
+      "date": "01-01-2023",
+      "amount": 433.93,
+      "category": "Beauty",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 7,
+      "date": "21-02-2023",
+      "amount": 2575.88,
+      "category": "Beauty",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 8,
+      "date": "27-02-2024",
+      "amount": 3543.74,
+      "category": "Music",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 9,
+      "date": "14-02-2025",
+      "amount": 2491.33,
+      "category": "Automotive",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 10,
+      "date": "19-09-2023",
+      "amount": 2768.13,
+      "category": "Sports",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 11,
+      "date": "01-03-2023",
+      "amount": 251.05,
+      "category": "Books",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 12,
+      "date": "04-04-2024",
+      "amount": 1954.88,
+      "category": "Toys",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 13,
+      "date": "29-07-2024",
+      "amount": 3802.59,
+      "category": "Tools",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 14,
+      "date": "18-07-2023",
+      "amount": 1196.54,
+      "category": "Sports",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 15,
+      "date": "30-07-2023",
+      "amount": 653.7,
+      "category": "Garden",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 16,
+      "date": "28-10-2024",
+      "amount": 4142.08,
+      "category": "Computers",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 17,
+      "date": "02-09-2024",
+      "amount": 2504.44,
+      "category": "Electronics",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 18,
+      "date": "25-01-2024",
+      "amount": 1873.81,
+      "category": "Automotive",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 19,
+      "date": "21-05-2024",
+      "amount": 1583.81,
+      "category": "Books",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 20,
+      "date": "12-07-2023",
+      "amount": 687.36,
+      "category": "Sports",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 21,
+      "date": "22-03-2023",
+      "amount": 367.62,
+      "category": "Home",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 22,
+      "date": "13-02-2025",
+      "amount": 2201.71,
+      "category": "Automotive",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 23,
+      "date": "16-08-2024",
+      "amount": 4779.64,
+      "category": "Kids",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 24,
+      "date": "27-08-2023",
+      "amount": 1694.74,
+      "category": "Health",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 25,
+      "date": "03-11-2024",
+      "amount": 3200.21,
+      "category": "Baby",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 26,
+      "date": "15-12-2023",
+      "amount": 2254.69,
+      "category": "Jewelry",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 27,
+      "date": "18-01-2023",
+      "amount": 3351.45,
+      "category": "Movies",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 28,
+      "date": "21-07-2024",
+      "amount": 417.32,
+      "category": "Automotive",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 29,
+      "date": "20-07-2023",
+      "amount": 2644.69,
+      "category": "Industrial",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 30,
+      "date": "10-05-2023",
+      "amount": 3774.65,
+      "category": "Garden",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 31,
+      "date": "18-12-2024",
+      "amount": 3286.59,
+      "category": "Clothing",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 32,
+      "date": "01-10-2023",
+      "amount": 2678.76,
+      "category": "Jewelry",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 33,
+      "date": "26-03-2024",
+      "amount": 1568.98,
+      "category": "Clothing",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 34,
+      "date": "13-09-2023",
+      "amount": 78.07,
+      "category": "Outdoors",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 35,
+      "date": "11-03-2024",
+      "amount": 2077.77,
+      "category": "Movies",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 36,
+      "date": "10-10-2023",
+      "amount": 164.76,
+      "category": "Kids",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 37,
+      "date": "10-04-2023",
+      "amount": 1088.5,
+      "category": "Tools",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 38,
+      "date": "31-05-2024",
+      "amount": 3784.79,
+      "category": "Clothing",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 39,
+      "date": "19-08-2023",
+      "amount": 1555.29,
+      "category": "Industrial",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 40,
+      "date": "07-01-2024",
+      "amount": 1164.32,
+      "category": "Music",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 41,
+      "date": "17-02-2025",
+      "amount": 14.8,
+      "category": "Tools",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 42,
+      "date": "04-01-2023",
+      "amount": 940.4,
+      "category": "Kids",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 43,
+      "date": "28-11-2023",
+      "amount": 686.66,
+      "category": "Beauty",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 44,
+      "date": "30-09-2024",
+      "amount": 346.82,
+      "category": "Industrial",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 45,
+      "date": "08-02-2023",
+      "amount": 4573.39,
+      "category": "Sports",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 46,
+      "date": "20-06-2023",
+      "amount": 647.45,
+      "category": "Clothing",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 47,
+      "date": "08-01-2024",
+      "amount": 4718.89,
+      "category": "Movies",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 48,
+      "date": "01-11-2023",
+      "amount": 3811.36,
+      "category": "Tools",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 49,
+      "date": "11-08-2023",
+      "amount": 1558.84,
+      "category": "Jewelry",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 50,
+      "date": "18-08-2024",
+      "amount": 1597.51,
+      "category": "Home",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 51,
+      "date": "19-10-2023",
+      "amount": 2156.33,
+      "category": "Automotive",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 52,
+      "date": "31-01-2023",
+      "amount": 2516.82,
+      "category": "Clothing",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 53,
+      "date": "26-12-2024",
+      "amount": 376.78,
+      "category": "Home",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 54,
+      "date": "07-02-2025",
+      "amount": 537.88,
+      "category": "Tools",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 55,
+      "date": "03-08-2023",
+      "amount": 249.7,
+      "category": "Clothing",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 56,
+      "date": "05-06-2023",
+      "amount": 4201.14,
+      "category": "Kids",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 57,
+      "date": "18-12-2023",
+      "amount": 29.62,
+      "category": "Jewelry",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 58,
+      "date": "07-05-2024",
+      "amount": 4428.69,
+      "category": "Baby",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 59,
+      "date": "28-02-2024",
+      "amount": 3689.32,
+      "category": "Garden",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 60,
+      "date": "08-07-2023",
+      "amount": 829.53,
+      "category": "Electronics",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 61,
+      "date": "31-10-2023",
+      "amount": 2874.0,
+      "category": "Baby",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 62,
+      "date": "16-08-2024",
+      "amount": 2505.93,
+      "category": "Sports",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 63,
+      "date": "03-07-2023",
+      "amount": 3224.19,
+      "category": "Grocery",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 64,
+      "date": "08-11-2023",
+      "amount": 3177.08,
+      "category": "Grocery",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 65,
+      "date": "12-09-2024",
+      "amount": 552.43,
+      "category": "Kids",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 66,
+      "date": "01-12-2023",
+      "amount": 3217.64,
+      "category": "Jewelry",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 67,
+      "date": "07-07-2023",
+      "amount": 4733.17,
+      "category": "Health",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 68,
+      "date": "01-03-2024",
+      "amount": 4491.75,
+      "category": "Shoes",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 69,
+      "date": "30-08-2024",
+      "amount": 4216.6,
+      "category": "Tools",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 70,
+      "date": "26-10-2024",
+      "amount": 2273.92,
+      "category": "Grocery",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 71,
+      "date": "13-09-2023",
+      "amount": 299.6,
+      "category": "Jewelry",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 72,
+      "date": "11-08-2024",
+      "amount": 3964.22,
+      "category": "Books",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 73,
+      "date": "29-01-2023",
+      "amount": 3870.58,
+      "category": "Shoes",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 74,
+      "date": "31-07-2023",
+      "amount": 74.83,
+      "category": "Beauty",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 75,
+      "date": "20-03-2023",
+      "amount": 1784.33,
+      "category": "Beauty",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 76,
+      "date": "23-04-2024",
+      "amount": 525.24,
+      "category": "Outdoors",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 77,
+      "date": "16-06-2023",
+      "amount": 772.11,
+      "category": "Games",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 78,
+      "date": "15-01-2024",
+      "amount": 2140.44,
+      "category": "Beauty",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 79,
+      "date": "04-12-2024",
+      "amount": 146.76,
+      "category": "Jewelry",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 80,
+      "date": "28-04-2023",
+      "amount": 2129.4,
+      "category": "Beauty",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 81,
+      "date": "26-11-2023",
+      "amount": 3366.06,
+      "category": "Jewelry",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 82,
+      "date": "04-10-2023",
+      "amount": 4299.38,
+      "category": "Garden",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 83,
+      "date": "26-06-2024",
+      "amount": 1632.78,
+      "category": "Tools",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 84,
+      "date": "08-09-2023",
+      "amount": 2056.66,
+      "category": "Health",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 85,
+      "date": "25-11-2023",
+      "amount": 4890.6,
+      "category": "Clothing",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 86,
+      "date": "10-12-2023",
+      "amount": 1120.47,
+      "category": "Health",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 87,
+      "date": "28-03-2023",
+      "amount": 3511.08,
+      "category": "Automotive",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 88,
+      "date": "24-03-2023",
+      "amount": 2257.83,
+      "category": "Home",
+      "type": "debit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 89,
+      "date": "31-12-2024",
+      "amount": 2308.27,
+      "category": "Outdoors",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 90,
+      "date": "13-03-2023",
+      "amount": 4152.22,
+      "category": "Music",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 91,
+      "date": "28-05-2024",
+      "amount": 4450.4,
+      "category": "Kids",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 92,
+      "date": "16-01-2023",
+      "amount": 1350.47,
+      "category": "Health",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 93,
+      "date": "01-11-2024",
+      "amount": 4251.52,
+      "category": "Books",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 3
+    },
+    {
+      "id": 94,
+      "date": "19-09-2024",
+      "amount": 1928.58,
+      "category": "Sports",
+      "type": "credit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 95,
+      "date": "20-07-2024",
+      "amount": 1347.18,
+      "category": "Home",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 96,
+      "date": "15-02-2024",
+      "amount": 189.09,
+      "category": "Books",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 97,
+      "date": "17-02-2023",
+      "amount": 457.65,
+      "category": "Electronics",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 3
+    },
+    {
+      "id": 98,
+      "date": "18-04-2023",
+      "amount": 2377.83,
+      "category": "Clothing",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 5
+    },
+    {
+      "id": 99,
+      "date": "27-03-2023",
+      "amount": 2062.19,
+      "category": "Sports",
+      "type": "debit",
+      "status": "completed",
+      "account_id": 5
+    },
+    {
+      "id": 100,
+      "date": "17-08-2023",
+      "amount": 2023.9,
+      "category": "Grocery",
+      "type": "credit",
+      "status": "pending",
+      "account_id": 5
+    }
+  ]
+}

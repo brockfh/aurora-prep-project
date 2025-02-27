@@ -1,13 +1,13 @@
-import {Button} from '../components/Button' //named export
-// import 'Button' from '../component/Button' // default export
+import { AccountsList } from "../components/AccountsList";
+import { TransactionsList } from "../components/TransactionsList";
 
-export default function Dashboard(){
-    return (
-        <>
-            <div>
-            Hello from the dashboard component
-            </div>
-            <Button/>
-        </>
-    )
+export default async function Dashboard() {
+  return (
+    <>
+      <h1 className="font-bold text-3xl">Dashboard</h1>
+      <h2 className="font-semibold text-xl">Hello, Brock 👋🏻</h2>
+      <AccountsList />
+      <TransactionsList />
+    </>
+  );
 }

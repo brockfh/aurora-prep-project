@@ -1,11 +1,6 @@
-import { EffectComponent } from "./components/EffectComponent";
-import State from "./state/page";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return (
-    <div className="p-8">
-      <h1>Homepage</h1>
-      <EffectComponent />
-    </div>
-  );
+  redirect("/dashboard");
+  return <div></div>;
 }

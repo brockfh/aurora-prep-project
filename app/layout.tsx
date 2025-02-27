@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { SideBar } from "./components/layout/SideBar";
 
 export const metadata: Metadata = {
   title: "Aurora Prep Project",
@@ -12,10 +13,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-      >
-        {children}
+    <html lang="en" className="bg-gray-50">
+      <body className="grid grid-cols-[1fr_4fr]">
+        <SideBar />
+        <main className="p-4">{children}</main>
       </body>
     </html>
   );
