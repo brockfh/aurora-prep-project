@@ -1,16 +1,33 @@
-"use client";
+import { TransactionsListItem } from "./TransactionsListItem";
+import { TransactionType } from "../lib/types";
+import Link from "next/link";
 
-import { useEffect } from "react";
-
-export const TransactionsList = () => {
-  useEffect(() => {
-    fetchTransactions();
-  }, []);
-
-  const fetchTransactions = async () => {
-    const res = await fetch("/api/transactions");
-    const data = await res.json();
-    // console.log(data);
-  };
-  return <div>Transactions List Here (Client Side Data Fetching)</div>;
+export const TransactionsList = async () => {
+  const res = await fetch("http://localhost:3000/api/transactions");
+  const data = await res.json();
+  // desctructuring
+  const { transactions } = data;
+  return (
+    <div className="bg-white p-4 max-w-lg mt-4">
+      <span className="flex justify-between">
+        <h2 className="font-bold text-2xl">💹 Recent Activity</h2>
+        <Link
+          href={"/transactions"}
+          className="text-sm underline hover:cursor-point"
+        >
+          See All
+        </Link>
+      </span>
+      <div className="grid grid-cols-1 gap-4 ">
+        {transactions.slice(0, 5).map((transaction: TransactionType) => {
+          return (
+            <TransactionsListItem
+              key={transaction.id}
+              transaction={transaction}
+            />
+          );
+        })}
+      </div>
+    </div>
+  );
 };

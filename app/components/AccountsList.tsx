@@ -12,12 +12,14 @@ export const AccountsList = () => {
       const data = await res.json();
       setAccountData(data.accounts);
     };
-    getAccountData();
+    // fake network latency
+    setTimeout(() => {
+      getAccountData();
+    }, 1000);
   }, []);
 
   return (
     <section>
-      <h2>Accounts</h2>
       <div className="grid grid-cols-5 gap-2 ">
         {accountData.length > 0 &&
           accountData.map((account) => {
