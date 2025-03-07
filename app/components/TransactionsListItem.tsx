@@ -1,3 +1,4 @@
+import { formatDate } from "../lib/helper";
 import { TransactionType } from "../lib/types";
 
 interface TransactionListItemProps {
@@ -16,7 +17,7 @@ export const TransactionsListItem = ({
         <span className="font-thin text-sm">{transaction.category}</span>
       </div>
       <span className="flex items-center content-right justify-end">
-        {transaction.date}
+        {formatDate(transaction.date)}
       </span>
     </div>
   );
