@@ -9,7 +9,7 @@ export const TransactionsList = async () => {
   const { transactions } = data;
   return (
     <div className="bg-white p-4 max-w-lg mt-4">
-      <span className="flex justify-between">
+      <span className="flex justify-between border-b pb-2">
         <h2 className="font-bold text-2xl">💹 Recent Activity</h2>
         <Link
           href={"/transactions"}
@@ -18,7 +18,7 @@ export const TransactionsList = async () => {
           See All
         </Link>
       </span>
-      <div className="grid grid-cols-1 gap-4 ">
+      <div className="grid grid-cols-1 gap-4 divide-y-[1px] ">
         {transactions.slice(0, 5).map((transaction: TransactionType) => {
           return (
             <TransactionsListItem

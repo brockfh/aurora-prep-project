@@ -8,7 +8,7 @@ export const TransactionsListItem = ({
   transaction,
 }: TransactionListItemProps) => {
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-2 pt-2">
       <div className="flex flex-col">
         <span className="font-semibold text-xl">
           {transaction.type === "debit" ? "-" : "+"} $
