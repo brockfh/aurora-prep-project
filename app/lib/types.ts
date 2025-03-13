@@ -5,6 +5,8 @@ export type AccountType = {
   currency: string;
   account_number: string;
   opened_date: string;
+  name: string;
+  nickname: string | undefined | null;
 };
 
 export type TransactionType = {

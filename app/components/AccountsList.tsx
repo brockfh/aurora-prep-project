@@ -10,12 +10,9 @@ export const AccountsList = () => {
     const getAccountData = async () => {
       const res = await fetch("/api/accounts");
       const data = await res.json();
-      setAccountData(data.accounts);
+      setAccountData(data.allAccounts);
     };
-    // fake network latency
-    setTimeout(() => {
-      getAccountData();
-    }, 1000);
+    getAccountData();
   }, []);
 
   return (

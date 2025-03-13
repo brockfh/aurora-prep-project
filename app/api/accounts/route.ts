@@ -1,11 +1,25 @@
-import * as db from "../../lib/db.json";
-export const GET = async () => {
-  // example of fetching data from an external service
-  // const res = await fetch('wwww.firsthorizon.com/data?loginId=brock/accounts', {method: "GET"});
-  // const data = await res.json()
-  // return Response.json({data})
+import { AccountType } from "@/app/lib/types";
+import { PrismaClient } from "@prisma/client";
+const prisma = new PrismaClient();
 
-  // example of fetching data from a database
-  const accounts = db.accounts;
-  return Response.json({ accounts });
+export const GET = async () => {
+  const allAccounts = await prisma.account.findMany();
+
+  return Response.json({ allAccounts });
+};
+
+export const POST = async () => {
+  const newAccount: AccountType = await prisma.account.create({
+    data: {
+      name: "Express Checking",
+      nickname: "Brock's Checking Account",
+      balance: 5328.64,
+      account_number: "1234567890",
+      currency: "USD",
+      opened_date: "13-03-2025",
+      type: "Checking",
+    },
+  });
+
+  return Response.json({ newAccount });
 };
