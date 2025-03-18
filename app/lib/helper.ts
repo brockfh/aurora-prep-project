@@ -7,3 +7,13 @@ export const formatDate = (dateString: string) => {
   const options = { year: "numeric", month: "long", day: "numeric" };
   return date.toLocaleDateString("en-us", options);
 };
+
+export const maskAccountNumber = (fullAccountNumber: string) => {
+  return (
+    "*****" +
+    fullAccountNumber.substring(
+      fullAccountNumber.length - 4,
+      fullAccountNumber.length
+    )
+  );
+};
