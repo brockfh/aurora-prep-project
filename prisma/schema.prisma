@@ -24,3 +24,13 @@ model Account {
   nickname  String?
   
 }
+
+model Transaction {
+  id String      @id @default(uuid())
+  date String
+  amount Float
+  category String
+  type String
+  status String
+  account_id String
+}

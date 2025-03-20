@@ -3,7 +3,7 @@ import { TransactionType } from "../lib/types";
 import Link from "next/link";
 
 export const TransactionsList = async () => {
-  const res = await fetch("http://localhost:3000/api/transactions");
+  const res = await fetch("http://localhost:9000/transactions");
   const data = await res.json();
   // desctructuring
   const { transactions } = data;
